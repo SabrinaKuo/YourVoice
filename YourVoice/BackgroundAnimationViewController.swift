@@ -10,11 +10,11 @@ import UIKit
 import Koloda
 import pop
 
-private let numberOfCards: Int = 5
-private let frameAnimationSpringBounciness: CGFloat = 9
-private let frameAnimationSpringSpeed: CGFloat = 16
-private let kolodaCountOfVisibleCards = 2
-private let kolodaAlphaValueSemiTransparent: CGFloat = 0.1
+let numberOfCards: Int = 5
+let frameAnimationSpringBounciness: CGFloat = 9
+let frameAnimationSpringSpeed: CGFloat = 16
+let kolodaCountOfVisibleCards = 2
+let kolodaAlphaValueSemiTransparent: CGFloat = 0.1
 
 class BackgroundAnimationViewController: UIViewController {
     

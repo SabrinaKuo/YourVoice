@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YeE-jS-prW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YeE-jS-prW">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -85,7 +85,7 @@
                                     <constraint firstAttribute="width" constant="120" id="Kfv-m0-5Ib"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vwB-hg-f4l">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vwB-hg-f4l" customClass="KolodaView" customModule="Koloda">
                                 <rect key="frame" x="18" y="64" width="339" height="382"/>
                                 <color key="backgroundColor" red="0.10506395725388606" green="0.10506395725388606" blue="0.10506395725388606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -129,7 +129,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wu5-Bi-3du">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wu5-Bi-3du" customClass="CustomKolodaView" customModule="YourVoice" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="74" width="375" height="593"/>
                                 <color key="backgroundColor" red="0.99961405992507935" green="0.5007814118024303" blue="0.49149780072587135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>

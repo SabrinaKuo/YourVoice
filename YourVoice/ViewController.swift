@@ -9,7 +9,7 @@
 import UIKit
 import Koloda
 
-private var numberOfCards: Int = 5
+private var NumberOfCards: Int = 5
 
 class ViewController: UIViewController {
     
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     fileprivate var dataSource: [UIImage] = {
         var array: [UIImage] = []
-        for index in 0..<numberOfCards {
+        for index in 0..<NumberOfCards {
             array.append(UIImage(named: "Card_like_\(index + 1)")!)
         }
         
@@ -28,7 +28,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        kolodaView.dataSource = self
+        kolodaView.delegate = self
     }
     
     // MARK: IBActions
