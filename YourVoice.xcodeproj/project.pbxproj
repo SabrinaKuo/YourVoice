@@ -19,6 +19,9 @@
 		81CA1BE31E839CB80029EB3A /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA1BE21E839CB80029EB3A /* CustomOverlayView.swift */; };
 		81CA1BE51E839E130029EB3A /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA1BE41E839E130029EB3A /* BackgroundKolodaAnimator.swift */; };
 		81CA1BE71E83A0370029EB3A /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA1BE61E83A0370029EB3A /* CustomKolodaView.swift */; };
+		B21CF9061E869C4A00E14699 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B21CF9051E869C4A00E14699 /* GoogleService-Info.plist */; };
+		B21CF9081E86A53E00E14699 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21CF9071E86A53E00E14699 /* LoginViewController.swift */; };
+		B21CF90A1E86B0E600E14699 /* UINavigationControllerTransparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21CF9091E86B0E600E14699 /* UINavigationControllerTransparent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,17 +29,20 @@
 		3C777079A16C54BB5953F763 /* Pods-YourVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YourVoice.release.xcconfig"; path = "Pods/Target Support Files/Pods-YourVoice/Pods-YourVoice.release.xcconfig"; sourceTree = "<group>"; };
 		81CA1BC51E83651A0029EB3A /* YourVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CA1BC81E83651A0029EB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81CA1BCA1E83651A0029EB3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81CA1BCA1E83651A0029EB3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = YourVoice/ViewController.swift; sourceTree = "<group>"; };
 		81CA1BCD1E83651A0029EB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81CA1BCF1E83651A0029EB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CA1BD21E83651A0029EB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81CA1BD41E83651A0029EB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81CA1BDA1E83798F0029EB3A /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		81CA1BDC1E837B290029EB3A /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
-		81CA1BDE1E837D4E0029EB3A /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
+		81CA1BDE1E837D4E0029EB3A /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundAnimationViewController.swift; path = YourVoice/BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
 		81CA1BE21E839CB80029EB3A /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
 		81CA1BE41E839E130029EB3A /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
 		81CA1BE61E83A0370029EB3A /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		B21CF9051E869C4A00E14699 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B21CF9071E86A53E00E14699 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B21CF9091E86B0E600E14699 /* UINavigationControllerTransparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerTransparent.swift; sourceTree = "<group>"; };
 		BE6FF0D1CE259A0C0DB61708 /* Pods_YourVoice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YourVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,18 +79,17 @@
 		81CA1BC71E83651A0029EB3A /* YourVoice */ = {
 			isa = PBXGroup;
 			children = (
+				B2F692CB1E8693EF00EFB431 /* Animation */,
+				B2F692CA1E8693AB00EFB431 /* View */,
+				B2F692C91E86934200EFB431 /* Controller */,
 				81CA1BC81E83651A0029EB3A /* AppDelegate.swift */,
-				81CA1BCA1E83651A0029EB3A /* ViewController.swift */,
-				81CA1BDE1E837D4E0029EB3A /* BackgroundAnimationViewController.swift */,
-				81CA1BE41E839E130029EB3A /* BackgroundKolodaAnimator.swift */,
-				81CA1BE61E83A0370029EB3A /* CustomKolodaView.swift */,
-				81CA1BE21E839CB80029EB3A /* CustomOverlayView.swift */,
 				81CA1BCC1E83651A0029EB3A /* Main.storyboard */,
 				81CA1BCF1E83651A0029EB3A /* Assets.xcassets */,
 				81CA1BD11E83651A0029EB3A /* LaunchScreen.storyboard */,
-				81CA1BD41E83651A0029EB3A /* Info.plist */,
 				81CA1BDA1E83798F0029EB3A /* OverlayView.xib */,
 				81CA1BDC1E837B290029EB3A /* CustomOverlayView.xib */,
+				81CA1BD41E83651A0029EB3A /* Info.plist */,
+				B21CF9051E869C4A00E14699 /* GoogleService-Info.plist */,
 			);
 			path = YourVoice;
 			sourceTree = "<group>";
@@ -95,6 +100,35 @@
 				BE6FF0D1CE259A0C0DB61708 /* Pods_YourVoice.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F692C91E86934200EFB431 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81CA1BCA1E83651A0029EB3A /* ViewController.swift */,
+				81CA1BDE1E837D4E0029EB3A /* BackgroundAnimationViewController.swift */,
+				B21CF9071E86A53E00E14699 /* LoginViewController.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B2F692CA1E8693AB00EFB431 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81CA1BE61E83A0370029EB3A /* CustomKolodaView.swift */,
+				81CA1BE21E839CB80029EB3A /* CustomOverlayView.swift */,
+				B21CF9091E86B0E600E14699 /* UINavigationControllerTransparent.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B2F692CB1E8693EF00EFB431 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				81CA1BE41E839E130029EB3A /* BackgroundKolodaAnimator.swift */,
+			);
+			name = Animation;
 			sourceTree = "<group>";
 		};
 		CA431FACCA9B9AB162E11D1B /* Pods */ = {
@@ -174,6 +208,7 @@
 				81CA1BDD1E837B290029EB3A /* CustomOverlayView.xib in Resources */,
 				81CA1BD01E83651A0029EB3A /* Assets.xcassets in Resources */,
 				81CA1BCE1E83651A0029EB3A /* Main.storyboard in Resources */,
+				B21CF9061E869C4A00E14699 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DEBD1893B6CCCBFBF863F70E /* [CP] Copy Pods Resources */ = {
@@ -232,11 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21CF9081E86A53E00E14699 /* LoginViewController.swift in Sources */,
 				81CA1BE51E839E130029EB3A /* BackgroundKolodaAnimator.swift in Sources */,
 				81CA1BDF1E837D4E0029EB3A /* BackgroundAnimationViewController.swift in Sources */,
 				81CA1BCB1E83651A0029EB3A /* ViewController.swift in Sources */,
 				81CA1BE71E83A0370029EB3A /* CustomKolodaView.swift in Sources */,
 				81CA1BC91E83651A0029EB3A /* AppDelegate.swift in Sources */,
+				B21CF90A1E86B0E600E14699 /* UINavigationControllerTransparent.swift in Sources */,
 				81CA1BE31E839CB80029EB3A /* CustomOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

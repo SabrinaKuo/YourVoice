@@ -7,4 +7,9 @@ target 'YourVoice' do
 
   # Pods for YourVoice
   pod 'Koloda'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Bolts'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
 end
