@@ -19,8 +19,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         FIRApp.configure()
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
+        
+        FIRAuth.auth()?.addStateDidChangeListener{ auth, user in
+            if let user = user {
+                print("\(user.email)使用者已經登入")
+                let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow")
+                self.window?.rootViewController = viewController
+            } else {
+                print("沒有人登入")
+                let viewController = storyboard.instantiateViewController(withIdentifier: "SignInFlow")
+                self.window?.rootViewController = viewController
+            }
+        }
 
         return true
     }

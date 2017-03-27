@@ -25,6 +25,10 @@ class LoginViewController: UIViewController {
             
             if let error = error{
                 print("Failed to login: \(error.localizedDescription)")
+                if let currentAccessToken = FBSDKAccessToken.current(), currentAccessToken.appID != FBSDKSettings.appID()
+                {
+                    fbLoginManager.logOut()
+                }
                 return
             }
             
@@ -36,7 +40,7 @@ class LoginViewController: UIViewController {
             let credential = FIRFacebookAuthProvider.credential(withAccessToken: accessToken.tokenString)
             
             // Perform login by calling Firebase APIs
-            FIRAuth.auth()?.signIn(with: credential, completion: { (user, error) in
+            FIRAuth.auth()?.signIn(with: credential) { user, error in
                 if let error = error {
                     print("Login error: \(error.localizedDescription)")
                     let alertController = UIAlertController(title: "Login Failed", message: error.localizedDescription, preferredStyle: .alert)
@@ -47,11 +51,16 @@ class LoginViewController: UIViewController {
                 }
                 
                 // Present the main view
-                if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "MainView") {
-                    UIApplication.shared.keyWindow?.rootViewController = viewController
-                    self.dismiss(animated: true, completion: nil)
-                }
-            })
+                let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
+                let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow")
+                UIApplication.shared.keyWindow?.rootViewController = viewController
+//                self.dismiss(animated: true, completion: nil)
+                
+//                if let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow") {
+//                    UIApplication.shared.keyWindow?.rootViewController = viewController
+//                    self.dismiss(animated: true, completion: nil)
+//                }
+            }
         }
     }
 }
