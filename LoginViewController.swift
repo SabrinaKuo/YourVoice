@@ -32,6 +32,8 @@ class LoginViewController: UIViewController {
                 return
             }
             
+            
+            
             guard let accessToken = FBSDKAccessToken.current() else {
                 print("Failed to get access token")
                 return
@@ -52,10 +54,10 @@ class LoginViewController: UIViewController {
                 }
                 
                 // Present the main view
-                let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
-                let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow")
-                UIApplication.shared.keyWindow?.rootViewController = viewController
-                self.dismiss(animated: true, completion: nil)
+//                let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
+//                let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow")
+//                UIApplication.shared.keyWindow?.rootViewController = viewController
+//                self.dismiss(animated: true, completion: nil)
                 
 //                if let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow") {
 //                    UIApplication.shared.keyWindow?.rootViewController = viewController

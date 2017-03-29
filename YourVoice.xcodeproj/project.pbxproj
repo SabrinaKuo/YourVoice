@@ -22,6 +22,7 @@
 		81F712A21E8BC3BB00FC1CE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F712A11E8BC3BB00FC1CE3 /* GoogleService-Info.plist */; };
 		B21CF9081E86A53E00E14699 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21CF9071E86A53E00E14699 /* LoginViewController.swift */; };
 		B21CF90A1E86B0E600E14699 /* UINavigationControllerTransparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21CF9091E86B0E600E14699 /* UINavigationControllerTransparent.swift */; };
+		B2D17D151E8BF4A40056DD3C /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D17D141E8BF4A40056DD3C /* UserInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		81F712A11E8BC3BB00FC1CE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B21CF9071E86A53E00E14699 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B21CF9091E86B0E600E14699 /* UINavigationControllerTransparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerTransparent.swift; sourceTree = "<group>"; };
+		B2D17D141E8BF4A40056DD3C /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		BE6FF0D1CE259A0C0DB61708 /* Pods_YourVoice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YourVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				81CA1BCA1E83651A0029EB3A /* ViewController.swift */,
 				81CA1BDE1E837D4E0029EB3A /* BackgroundAnimationViewController.swift */,
 				B21CF9071E86A53E00E14699 /* LoginViewController.swift */,
+				B2D17D141E8BF4A40056DD3C /* UserInfoViewController.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -271,6 +274,7 @@
 				81CA1BE51E839E130029EB3A /* BackgroundKolodaAnimator.swift in Sources */,
 				81CA1BDF1E837D4E0029EB3A /* BackgroundAnimationViewController.swift in Sources */,
 				81CA1BCB1E83651A0029EB3A /* ViewController.swift in Sources */,
+				B2D17D151E8BF4A40056DD3C /* UserInfoViewController.swift in Sources */,
 				81CA1BE71E83A0370029EB3A /* CustomKolodaView.swift in Sources */,
 				81CA1BC91E83651A0029EB3A /* AppDelegate.swift in Sources */,
 				B21CF90A1E86B0E600E14699 /* UINavigationControllerTransparent.swift in Sources */,

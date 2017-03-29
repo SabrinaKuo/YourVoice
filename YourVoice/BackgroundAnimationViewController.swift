@@ -9,6 +9,7 @@
 import UIKit
 import Koloda
 import Firebase
+import FBSDKLoginKit
 import pop
 
 let numberOfCards: Int = 5
@@ -20,6 +21,12 @@ let kolodaAlphaValueSemiTransparent: CGFloat = 0.1
 class BackgroundAnimationViewController: UIViewController {
     
     @IBOutlet weak var kolodaView: CustomKolodaView!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showUserPage" {
+            
+        }
+    }
     
     //MARK: Lifecycle
     override func viewDidLoad() {
@@ -45,7 +52,9 @@ class BackgroundAnimationViewController: UIViewController {
     
     @IBAction func undoButtonTapped(_ sender: Any) {
 //        kolodaView?.revertAction()
-        try!FIRAuth.auth()?.signOut()
+//        try!FIRAuth.auth()?.signOut()
+//        let fbLoginManager = FBSDKLoginManager()
+//        fbLoginManager.logOut()
     }
     
 }
