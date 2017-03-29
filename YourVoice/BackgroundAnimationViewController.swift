@@ -8,6 +8,7 @@
 
 import UIKit
 import Koloda
+import Firebase
 import pop
 
 let numberOfCards: Int = 5
@@ -43,7 +44,8 @@ class BackgroundAnimationViewController: UIViewController {
     }
     
     @IBAction func undoButtonTapped(_ sender: Any) {
-        kolodaView?.revertAction()
+//        kolodaView?.revertAction()
+        try!FIRAuth.auth()?.signOut()
     }
     
 }

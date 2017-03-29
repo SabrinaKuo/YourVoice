@@ -48,13 +48,14 @@ class LoginViewController: UIViewController {
                     alertController.addAction(okAction)
                     
                     self.present(alertController, animated: true, completion: nil)
+                    return
                 }
                 
                 // Present the main view
                 let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
                 let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow")
                 UIApplication.shared.keyWindow?.rootViewController = viewController
-//                self.dismiss(animated: true, completion: nil)
+                self.dismiss(animated: true, completion: nil)
                 
 //                if let viewController = storyboard.instantiateViewController(withIdentifier: "MainFlow") {
 //                    UIApplication.shared.keyWindow?.rootViewController = viewController
