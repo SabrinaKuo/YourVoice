@@ -12,4 +12,5 @@ target 'YourVoice' do
   pod 'Bolts'
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
+  pod 'FacebookCore'
 end

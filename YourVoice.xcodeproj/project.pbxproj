@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		712B1EAE26929BAD72D475E0 /* Pods_YourVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6FF0D1CE259A0C0DB61708 /* Pods_YourVoice.framework */; };
+		81733ECA1E8CBC7C00102F87 /* AccountSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81733EC91E8CBC7C00102F87 /* AccountSettingViewController.swift */; };
 		81CA1BC91E83651A0029EB3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA1BC81E83651A0029EB3A /* AppDelegate.swift */; };
 		81CA1BCB1E83651A0029EB3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA1BCA1E83651A0029EB3A /* ViewController.swift */; };
 		81CA1BCE1E83651A0029EB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CA1BCC1E83651A0029EB3A /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		81CA1BE51E839E130029EB3A /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA1BE41E839E130029EB3A /* BackgroundKolodaAnimator.swift */; };
 		81CA1BE71E83A0370029EB3A /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA1BE61E83A0370029EB3A /* CustomKolodaView.swift */; };
 		81F712A21E8BC3BB00FC1CE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F712A11E8BC3BB00FC1CE3 /* GoogleService-Info.plist */; };
+		81F712A51E8CAB9500FC1CE3 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F712A41E8CAB9500FC1CE3 /* UserInformation.swift */; };
 		B21CF9081E86A53E00E14699 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21CF9071E86A53E00E14699 /* LoginViewController.swift */; };
 		B21CF90A1E86B0E600E14699 /* UINavigationControllerTransparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21CF9091E86B0E600E14699 /* UINavigationControllerTransparent.swift */; };
 		B2D17D151E8BF4A40056DD3C /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D17D141E8BF4A40056DD3C /* UserInfoViewController.swift */; };
@@ -28,6 +30,7 @@
 /* Begin PBXFileReference section */
 		08AC07BED17B78A8492A273D /* Pods-YourVoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YourVoice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YourVoice/Pods-YourVoice.debug.xcconfig"; sourceTree = "<group>"; };
 		3C777079A16C54BB5953F763 /* Pods-YourVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YourVoice.release.xcconfig"; path = "Pods/Target Support Files/Pods-YourVoice/Pods-YourVoice.release.xcconfig"; sourceTree = "<group>"; };
+		81733EC91E8CBC7C00102F87 /* AccountSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSettingViewController.swift; sourceTree = "<group>"; };
 		81CA1BC51E83651A0029EB3A /* YourVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CA1BC81E83651A0029EB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81CA1BCA1E83651A0029EB3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = YourVoice/ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		81CA1BE41E839E130029EB3A /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
 		81CA1BE61E83A0370029EB3A /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
 		81F712A11E8BC3BB00FC1CE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81F712A41E8CAB9500FC1CE3 /* UserInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 		B21CF9071E86A53E00E14699 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B21CF9091E86B0E600E14699 /* UINavigationControllerTransparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerTransparent.swift; sourceTree = "<group>"; };
 		B2D17D141E8BF4A40056DD3C /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			children = (
 				B2F692CB1E8693EF00EFB431 /* Animation */,
 				B2F692CA1E8693AB00EFB431 /* View */,
+				81F712A31E8CAB5600FC1CE3 /* Module */,
 				B2F692C91E86934200EFB431 /* Controller */,
 				81CA1BC81E83651A0029EB3A /* AppDelegate.swift */,
 				81CA1BCC1E83651A0029EB3A /* Main.storyboard */,
@@ -94,6 +99,14 @@
 				81CA1BD41E83651A0029EB3A /* Info.plist */,
 			);
 			path = YourVoice;
+			sourceTree = "<group>";
+		};
+		81F712A31E8CAB5600FC1CE3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				81F712A41E8CAB9500FC1CE3 /* UserInformation.swift */,
+			);
+			name = Module;
 			sourceTree = "<group>";
 		};
 		A98E1C025DF3ABB12BD549DC /* Frameworks */ = {
@@ -111,6 +124,7 @@
 				81CA1BDE1E837D4E0029EB3A /* BackgroundAnimationViewController.swift */,
 				B21CF9071E86A53E00E14699 /* LoginViewController.swift */,
 				B2D17D141E8BF4A40056DD3C /* UserInfoViewController.swift */,
+				81733EC91E8CBC7C00102F87 /* AccountSettingViewController.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -245,7 +259,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DEBD1893B6CCCBFBF863F70E /* [CP] Copy Pods Resources */ = {
@@ -275,7 +289,9 @@
 				81CA1BDF1E837D4E0029EB3A /* BackgroundAnimationViewController.swift in Sources */,
 				81CA1BCB1E83651A0029EB3A /* ViewController.swift in Sources */,
 				B2D17D151E8BF4A40056DD3C /* UserInfoViewController.swift in Sources */,
+				81F712A51E8CAB9500FC1CE3 /* UserInformation.swift in Sources */,
 				81CA1BE71E83A0370029EB3A /* CustomKolodaView.swift in Sources */,
+				81733ECA1E8CBC7C00102F87 /* AccountSettingViewController.swift in Sources */,
 				81CA1BC91E83651A0029EB3A /* AppDelegate.swift in Sources */,
 				B21CF90A1E86B0E600E14699 /* UINavigationControllerTransparent.swift in Sources */,
 				81CA1BE31E839CB80029EB3A /* CustomOverlayView.swift in Sources */,
